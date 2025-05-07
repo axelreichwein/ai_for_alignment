@@ -1,0 +1,71 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 2,
+    "total": 2,
+    "issues": [
+      {
+        "id": "20001",
+        "key": "R1",
+        "fields": {
+          "summary": "Obstacle Detection",
+          "issuetype": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+            "id": "100",
+            "description": "A software requirement",
+            "name": "Requirement"
+          },
+          "status": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+            "id": "1",
+            "name": "Open"
+          },
+          "assignee": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+            "displayName": "Unassigned",
+            "accountId": "unassigned"
+          },
+          "reporter": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+            "displayName": "System",
+            "accountId": "system"
+          },
+          "created": "2025-05-07T08:00:00.000-0700",
+          "updated": "2025-05-07T08:00:00.000-0700",
+          "description": "The system shall detect obstacles within 10 m of the vehicle and measure their speed."
+        }
+      },
+      {
+        "id": "20002",
+        "key": "R2",
+        "fields": {
+          "summary": "Collision Prediction & Braking",
+          "issuetype": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+            "id": "100",
+            "description": "A software requirement",
+            "name": "Requirement"
+          },
+          "status": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+            "id": "1",
+            "name": "Open"
+          },
+          "assignee": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+            "displayName": "Unassigned",
+            "accountId": "unassigned"
+          },
+          "reporter": {
+            "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+            "displayName": "System",
+            "accountId": "system"
+          },
+          "created": "2025-05-07T08:00:00.000-0700",
+          "updated": "2025-05-07T08:00:00.000-0700",
+          "description": "If an obstacle is detected that will collide within 2 s, the system shall automatically apply the brakes and notify the driver."
+        }
+      }
+    ]
+  }
+  
